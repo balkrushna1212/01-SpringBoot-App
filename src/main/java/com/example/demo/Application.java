@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
-
+	private static String ReSTURL="http://abc.121.cv";
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	} 
